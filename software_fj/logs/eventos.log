@@ -1,0 +1,20 @@
+2026-11-17 05:19:12,941 | INFO | ===== INICIO DE LA SIMULACIÓN SOFTWARE FJ =====
+2026-11-17 05:19:12,941 | INFO | Cliente registrado: Cliente #1: Ana Torres | ana@correo.com | 3001234567
+2026-11-17 05:19:12,941 | DEBUG | Fin de registrar_cliente.
+2026-11-17 05:19:12,941 | ERROR | Registro de cliente fallido: [FJ-101] Correo inválido: 'luis-correo'
+2026-11-17 05:19:12,941 | DEBUG | Fin de registrar_cliente.
+2026-11-17 05:19:12,941 | ERROR | Registro de cliente fallido: [FJ-102] Falta el parámetro obligatorio 'telefono'.
+2026-11-17 05:19:12,941 | DEBUG | Fin de registrar_cliente.
+2026-11-17 05:19:12,941 | INFO | Servicio creado: Sala 'Sala Ejecutiva' (capacidad 10) - $50,000/hora
+2026-11-17 05:19:12,941 | ERROR | Creación de servicio fallida: [FJ-102] Tarifa inválida: -100
+2026-11-17 05:19:12,942 | INFO | Servicio creado: Asesoría 'Arquitectura de Software' nivel senior - $80,000/hora
+2026-11-17 05:19:12,942 | INFO | Reserva 1 confirmada.
+2026-11-17 05:19:12,942 | INFO | Servicio creado: Equipo 'Proyector' x2 - $40,000/día
+2026-11-17 05:19:12,942 | ERROR | Reserva fallida: [FJ-103] El servicio 'Proyector' no está disponible.
+2026-11-17 05:19:12,942 | INFO | Reserva 1 procesada. Costo total: $160,650.00
+2026-11-17 05:19:12,942 | DEBUG | Fin del intento de procesamiento de la reserva 1.
+2026-11-17 05:19:12,942 | ERROR | Cancelación fallida: [FJ-105] No se puede cancelar una reserva procesada.
+2026-11-17 05:19:12,942 | ERROR | Reserva fallida: [FJ-104] La reserva requiere un cliente válido.
+2026-11-17 05:19:12,942 | ERROR | Reserva fallida: [FJ-104] Duración no válida para el servicio. | causa: ParametroInvalidoError('Horas de asesoría inválidas (1-8): 20')
+2026-11-17 05:19:12,942 | ERROR | Parámetros incorrectos al crear servicio: Can't instantiate abstract class Servicio without an implementation for abstract methods 'calcular_costo', 'describir', 'validar_parametros'
+2026-11-17 05:19:12,942 | INFO | ===== FIN DE LA SIMULACIÓN: el sistema continuó estable =====
